@@ -1,4 +1,4 @@
-// import React, { useState } from "react";
+// import { useState } from "react";
 import React from "react";
 
 import {
@@ -15,12 +15,12 @@ import Logo from "../assests/logo.png";
 import { Link } from "react-scroll";
 
 const Navbar = () => {
-  // const [nav, setNav] = useState[false];
+  // const [nav, setNav] = useState(1);
   // const handleClick = () => setNav(nav);
   return (
     <div className="fixed w-full h-[75px] flex justify-between items-center px-6 bg-[#D6EFED] text-black">
       <div>
-        <img src={Logo} alt="Logo Image" style={{ width: "100px" }} />
+        <img src={Logo} alt="Logo" style={{ width: "100px" }} />
       </div>
       {/* Menu */}
       <ul className="hidden md:flex text-xl">
@@ -51,11 +51,11 @@ const Navbar = () => {
         </li>
       </ul>
       {/* Hamburger */}
-      <div className="md:hidden z-10">
+      <div  className="md:hidden z-10">
         <FaBars />
       </div>
       {/* Mobile Menu */}
-      {/* <ul className="hidden absolute top-0 left-0 w-full h-screen bg-[#D6EFED]  flex-col justify-center items-center">
+      {/* <ul  className=" absolute top-0 left-0 w-full h-screen bg-[#D6EFED]  flex-col justify-center items-center">
         <li className="py-6 text-4xl ">Home</li>
         <li className="py-6 text-4xl ">About</li>
         <li className="py-6 text-4xl ">Skills</li>
