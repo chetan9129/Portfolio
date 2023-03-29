@@ -43,17 +43,29 @@ const Skills = () => {
           </div>
         </div>
         <div className="w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center ">
-          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-            <img className="p-2 w-25 mx-auto" src={CLANG} alt="HTML icon" />
-            <p className="my-4">C++</p>
+          <div className="shadow-md h-[289px] shadow-[#040c16] hover:scale-110 duration-500">
+            <img
+              className="p-2 w-25 h-[255px] mx-auto"
+              src={CLANG}
+              alt="HTML icon"
+            />
+            <p className="mb-4">C++</p>
           </div>
-          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-            <img className="p-2 w-25 mx-auto" src={SQL} alt="HTML icon" />
-            <p className="my-4">MySql</p>
+          <div className="shadow-md  h-[289px]  shadow-[#040c16] hover:scale-110 duration-500">
+            <img
+              className="p-2 w-25  h-[255px] mx-auto"
+              src={SQL}
+              alt="HTML icon"
+            />
+            <p className="mb-4">MySql</p>
           </div>
-          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-            <img className="p-2 w-25 mx-auto" src={JAVA} alt="HTML icon" />
-            <p className="my-4">Java</p>
+          <div className="shadow-md h-[289px] shadow-[#040c16] hover:scale-110 duration-500">
+            <img
+              className="p-2 h-[255px] w-25 mx-auto"
+              src={JAVA}
+              alt="HTML icon"
+            />
+            <p className="mb-4">Java</p>
           </div>
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
             <img className="p-2 w-25 mx-auto" src={REACT} alt="HTML icon" />
