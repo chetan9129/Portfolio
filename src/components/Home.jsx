@@ -12,10 +12,10 @@ const Home = () => {
           Chetan Sharma
         </h1>
         <h2 className="text-4xl sm:text-7xl font-bold text-[#cfad3c]">
-          I am a Student and Front End Devloper.
+          I am a Student and MERN Satck Developer.
         </h2>
         <p className="text-[#cfad3c] py-4 max-w-700 text-xl">
-          I'm a Front-End Devloper specialising in building ocassionally
+          I'm a MERn Satck Developer specialising in building ocassionally
           designing exceptional digital experiences. Currently, I'm focused on
           building responsive front-end web application.
         </p>
