@@ -4,6 +4,9 @@ import WorkImg1 from "../assests/webImage1.png";
 import WorkImg2 from "../assests/webImage2.png";
 import WorkImg3 from "../assests/webImage3.png";
 import WorkImg4 from "../assests/ss.png";
+import WorkImg5 from "../assests/app1.jpg";
+import WorkImg6 from "../assests/Web6.png";
+import WorkImg7 from "../assests/Web7.png";
 
 const Work = () => {
   return (
@@ -25,7 +28,7 @@ const Work = () => {
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
             {/* hover Effect */}
-            <div className="opacity-0 group-hover:opacity-100 duration-500">
+            <div className="opacity-0 group-hover:opacity-100 duration-500 text-center">
               <span className="text-2xl font-bold text-black tracking-wider">
                 Bootstrap Application
               </span>
@@ -48,7 +51,7 @@ const Work = () => {
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
             {/* hover Effect */}
-            <div className="opacity-0 group-hover:opacity-100 duration-500">
+            <div className="opacity-0 group-hover:opacity-100 duration-500 text-center">
               <span className="text-2xl font-bold text-black tracking-wider">
                 HTML, CSS Application
               </span>
@@ -75,7 +78,7 @@ const Work = () => {
             className="align-bottom shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
             {/* hover Effect */}
-            <div className="opacity-0 group-hover:opacity-100 duration-500">
+            <div className="opacity-0 group-hover:opacity-100 duration-500 text-center">
               <span className="text-2xl font-bold text-black tracking-wider">
                 Recipe App
               </span>
@@ -101,7 +104,7 @@ const Work = () => {
             className="shadow-lg  shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
             {/* hover Effect */}
-            <div className="opacity-0 group-hover:opacity-100 duration-500">
+            <div className="opacity-0 group-hover:opacity-100 duration-500 text-center">
               <span className="text-2xl font-bold text-black tracking-wider">
                 Quiz Application
               </span>
@@ -127,7 +130,7 @@ const Work = () => {
             className="shadow-lg  shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
             {/* hover Effect */}
-            <div className="opacity-0 group-hover:opacity-100 duration-500">
+            <div className="opacity-0 group-hover:opacity-100 duration-500 text-center">
               <span className="text-2xl font-bold text-black tracking-wider">
                 Cryto-Web
               </span>
@@ -139,6 +142,84 @@ const Work = () => {
                 </a>
                 <a
                   href="https://github.com/chetan9129/crypto.git"
+                  target="_blank"
+                >
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 text-lg">
+                    Code
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div
+            style={{ backgroundImage: `url(${WorkImg5})` }}
+            className="shadow-lg  shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
+          >
+            {/* hover Effect */}
+            <div className="opacity-0 group-hover:opacity-100 duration-500 text-center">
+              <span className="text-2xl font-bold text-black tracking-wider ">
+                Venato App
+              </span>
+              <div className="pt-8 text-center">
+                <a href="#" target="_blank">
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 text-lg">
+                    Demo
+                  </button>
+                </a>
+                <a
+                  href="https://github.com/chetan9129/Venato-Credit-Score-App"
+                  target="_blank"
+                >
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 text-lg">
+                    Code
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div
+            style={{ backgroundImage: `url(${WorkImg7})` }}
+            className="shadow-lg  shadow-[#040c16] group container rounded-md flex justify-center align-item-center items-center mx-auto content-div object-center"
+          >
+            {/* hover Effect */}
+            <div className="opacity-0 group-hover:opacity-100 duration-500 text-center">
+              <span className="text-2xl font-bold text-black tracking-wider ">
+                AmplifAI
+              </span>
+              <div className="pt-8 text-center">
+                <a href="#" target="_blank">
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 text-lg">
+                    Demo
+                  </button>
+                </a>
+                <a
+                  href="https://github.com/chetan9129/AmplifAI.git"
+                  target="_blank"
+                >
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 text-lg">
+                    Code
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div
+            style={{ backgroundImage: `url(${WorkImg6})` }}
+            className="shadow-lg  shadow-[#040c16] group container rounded-md flex justify-center align-item-center items-center mx-auto content-div object-center"
+          >
+            {/* hover Effect */}
+            <div className="opacity-0 group-hover:opacity-100 duration-500 text-center">
+              <span className="text-2xl font-bold text-black tracking-wider ">
+                Blogram
+              </span>
+              <div className="pt-8 text-center">
+                <a href="#" target="_blank">
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 text-lg">
+                    Demo
+                  </button>
+                </a>
+                <a
+                  href="https://github.com/chetan9129/AmplifAI.git"
                   target="_blank"
                 >
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 text-lg">
